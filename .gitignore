@@ -1,0 +1,16 @@
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Build outputs
+**/target/
+**/build/
+**/out/
+
+# OS files
+.DS_Store
+Thumbs.db
