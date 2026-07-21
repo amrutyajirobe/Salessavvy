@@ -2,11 +2,10 @@ package com.salessavvy.auth.dto;
 
 import com.salessavvy.auth.entity.Role;
 
-// Response DTO
-public record UserRegistrationResponse(
+public record LoginResponse(
         Integer userId,
         String username,
-        String email,
-        Role role
+        Role role,
+        String message
 ) {
 }

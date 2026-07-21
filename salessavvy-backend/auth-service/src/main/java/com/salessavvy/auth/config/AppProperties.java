@@ -1,0 +1,9 @@
+package com.salessavvy.auth.config;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties(prefix = "app")
+public record AppProperties(
+        boolean authCookieSecure
+) {
+}

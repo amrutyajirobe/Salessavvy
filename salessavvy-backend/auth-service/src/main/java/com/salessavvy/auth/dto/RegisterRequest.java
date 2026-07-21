@@ -4,6 +4,11 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
+
+// Client sends JSON-format data. Spring converts JSON into a request DTO
+// So, the controller receives it in RegistrationController as "/register"
+
+//Register request DTO
 public record RegisterRequest(
 
         @NotBlank(message = "Username is required")
