@@ -2,7 +2,7 @@
 
 Feature-first React structure aligned with the SalesSavvy backend and the supplied UI designs.
 
-## Screenshot component placement
+## Component placement
 
 - Login and registration: `src/features/auth`
 - Customer homepage, category navigation, product list, and product cards: `src/features/products`
@@ -22,3 +22,4 @@ Feature-first React structure aligned with the SalesSavvy backend and the suppli
 API modules should use one gateway client in `src/lib/api`, targeting `http://localhost:8080` locally. Login requests must send credentials because the JWT is stored in the HTTP-only `authToken` cookie.
 
 The screenshots mention logout and cart-count endpoints, but those endpoints do not currently exist in the backend. Do not wire them until their contracts are implemented.
+Endpoints do not currently exist in the backend. Did not wire them until now. 
