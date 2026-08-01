@@ -15,7 +15,6 @@
     <description>Aggregator for Sales Savvy microservices</description>
 
     <modules>
-     <module>common-lib</module>
     <module>api-gateway</module>
     <module>auth-service</module>
     <module>user-service</module>
